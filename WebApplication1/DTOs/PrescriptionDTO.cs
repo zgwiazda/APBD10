@@ -23,3 +23,8 @@ public class RegisterPatientDto
     public string Login { get; set; }
     public string Password { get; set; }
 }
+public class LoginDto
+{
+    public string Login { get; set; }
+    public string Password { get; set; }
+}

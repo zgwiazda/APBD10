@@ -16,3 +16,10 @@ public class MedicamentDTO
     public int Id { get; set; }
     public int Dose { get; set; }
 }
+public class RegisterPatientDto
+{
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
+    public string Login { get; set; }
+    public string Password { get; set; }
+}
